@@ -1,0 +1,3 @@
+/home/enya/workspace/tsisa/tsisa_lab02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/enya/workspace/tsisa/tsisa_lab02/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/enya/workspace/tsisa/tsisa_lab02/cmake-build-debug/CMakeFiles/n.dir
