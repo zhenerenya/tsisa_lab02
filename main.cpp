@@ -34,8 +34,8 @@ int main() {
 
 
     for (const auto& i : P){
-        std::cout<<"|"<<std::setw(4)<<"N"<<"|"<<std::setw(8)<<"P"<<"|"<<std::setw(10)<<"q"<<"|"<<
-                 std::setw(8)<<"x_min"<<"|"<<std::setw(8)<<"f_min"<<"|"<<std::endl;
+        std::cout<<"|"<<std::setw(4)<<"N"<<"|"<<std::setw(8)<<"P"<<"|"<<std::setw(8)<<"q"<<"|"<<
+                 std::setw(10)<<"x_min"<<"|"<<std::setw(10)<<"f_min"<<"|"<<std::endl;
         double x;
         for (const auto& j : q){
             int N = ceil(log(1-i)/log(1-j));
@@ -49,11 +49,11 @@ int main() {
                 }
             }
             std::cout<<"|"<<std::setw(4)<<N<<"|"<<std::setw(8)<<i<<"|"<<std::setw(8)<<j<<"|"<<
-                     std::setw(8)<<x_min<<"|"<<std::setw(8)<<f_min<<"|"<<std::endl;
+                     std::setw(10)<<x_min<<"|"<<std::setw(10)<<f_min<<"|"<<std::endl;
 
         }
 
-        std::cout<<std::setfill('=')<<std::setw(42)<<" ";
+        std::cout<<std::setfill('=')<<std::setw(46)<<" ";
         std::cout<<std::endl<<std::setfill(' ');
 
     }
@@ -85,6 +85,4 @@ int main() {
 
     }
 
-
-    return 0;
 }
